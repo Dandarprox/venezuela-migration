@@ -1,0 +1,16 @@
+@import "./_variables.scss";
+@import "./_mixins.scss";
+@import "./_helpers.scss";
+@import "./_titles.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  background: $colorBlue;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}

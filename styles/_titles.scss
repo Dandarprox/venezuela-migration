@@ -1,0 +1,15 @@
+.title__l {
+  font-size: 72px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.title__s {
+  @extend .title__l;
+  font-size: 30px;
+}
+
+.title--centered {
+  text-align: center;
+}

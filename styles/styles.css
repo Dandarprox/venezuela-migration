@@ -1,0 +1,26 @@
+.title__l, .title__s {
+  font-size: 72px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.title__s {
+  font-size: 30px;
+}
+
+.title--centered {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  background: #030227;
+  color: white;
+  font-family: "Lato", sans-serif;
+}

@@ -1,0 +1,34 @@
+{
+  "name": "venezuelas",
+  "version": "1.0.0",
+  "description": "### Members List of all members",
+  "main": "./dist/main.js",
+  "dependencies": {
+    "concurrently": "^5.1.0",
+    "dart-sass": "^1.25.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "lite-server": "^2.5.4",
+    "node-sass": "^4.13.1",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "concurrently --kill-others \"lite-server\" \"gulp\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Dandarprox:Veritasium127@github.com/Dandarprox/venezuela-migration.git"
+  },
+  "keywords": [
+    "venezuela"
+  ],
+  "author": "Daniel Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dandarprox/venezuela-migration/issues"
+  },
+  "homepage": "https://github.com/Dandarprox/venezuela-migration#readme"
+}

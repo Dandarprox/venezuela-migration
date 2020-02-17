@@ -13,3 +13,40 @@
 .title--centered {
   text-align: center;
 }
+
+.title__container {
+  @include flexCentered;
+}
+
+// Animation glitch
+.title--glitch {
+  position: relative;
+
+  &::before {
+    content: '';
+    width: 0;
+    height: 100%;
+    background: rgba(white, .9);
+    @include absoluteCentered;
+  }
+}
+
+.title--glitch-1 {
+  &::before {
+    width: 1px;
+  }
+}
+
+.title--glitch-2 {
+  &::before {
+    width: .9em;
+  }
+}
+
+.title--glitch-3 {
+  &::before {
+    display: none;
+  }
+}
+
+

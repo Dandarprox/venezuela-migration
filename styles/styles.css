@@ -1,3 +1,9 @@
+.hlp__flex-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .title__l, .title__s {
   font-size: 72px;
   font-weight: bold;
@@ -11,6 +17,47 @@
 
 .title--centered {
   text-align: center;
+}
+
+.title__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title--glitch {
+  position: relative;
+}
+.title--glitch::before {
+  content: "";
+  width: 0;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title--glitch-1::before {
+  width: 1px;
+}
+
+.title--glitch-2::before {
+  width: 0.9em;
+}
+
+.title--glitch-3::before {
+  display: none;
+}
+
+.loading {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
 }
 
 * {

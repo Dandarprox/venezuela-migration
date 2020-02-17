@@ -2,6 +2,10 @@
 @import "./_mixins.scss";
 @import "./_helpers.scss";
 @import "./_titles.scss";
+@import "./_animations.scss";
+
+// Import sections
+@import "./sections/_loading.scss";
 
 * {
   box-sizing: border-box;

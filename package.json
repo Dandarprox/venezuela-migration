@@ -15,7 +15,7 @@
     "gulp-sass": "^4.0.2",
     "gulp-typescript": "^6.0.0-alpha.1",
     "lite-server": "^2.5.4",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "node-sass": "^4.13.1",
     "ts-loader": "^6.2.1",
     "typescript": "^3.7.5",

@@ -10,7 +10,7 @@
     "concurrently": "^5.1.0",
     "dart-sass": "^1.25.0",
     "eslint-config-airbnb": "^18.0.1",
-    "gsap": "^2.1.1",
+    "gsap": "^3.6.0",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2",
     "gulp-typescript": "^6.0.0-alpha.1",
